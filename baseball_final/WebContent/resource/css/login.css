@@ -1,0 +1,57 @@
+@charset "UTF-8";
+.logintable {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+.welcome {
+	margin: 40px auto;
+	text-align: center;
+}
+.menu {
+	width: 600px;
+	margin: 10px auto;
+	text-align: center;
+}
+.menu > a {
+	font-size: 17px;
+	text-decoration: none;
+	color: black;
+}
+.menu > a:hover {
+	font-weight: bold;
+}
+#sbutton {
+	width: 445px;
+	height: 43px;
+	background-color: #980000;
+	border: none;
+	border-radius: 2px;
+	color: white;
+}
+#sbutton:hover {
+	background-color: white;
+	border: 1px solid #980000;
+	color: #980000;
+}
+h1 {
+	font-size: 53px;
+}
+td {
+	height: 40px;
+	text-align: center;
+}
+input {
+	font-size: 17px;
+	width: 400px;
+	height: 38px;
+	padding: 3px 20px;
+}
+input[type="radio"] {
+    width: 25px;
+    height: auto;
+}
+#auth {
+	text-align: center;
+	padding: 3px 20px;
+}

@@ -1,0 +1,173 @@
+@charset "UTF-8";
+#teamlogo {
+	text-align: center;
+}
+#teaminfo {
+	margin: 30px auto;
+	display: grid;
+    grid-template-columns: repeat(3, 380px);  /* 너비 200px인 칼럼 5개 */
+    grid-template-rows: minmax(50px, auto);  
+    grid-gap: 20px 30px;  /* 칼럼 간격 35px, 줄 간격 20px  */
+    /* grid-column-gap:30px; */
+    /* grid-row-gap:20px; */
+}
+#teaminfo > div {
+	height: 50px;
+	line-height: 50px;
+	border: solid #EAEAEA;
+ 	border-width: 2px 3px 3px 2px;
+ 	text-align: center;
+	font-size: 17px;
+}
+#teaminfo > div:hover, #writepost:hover {
+ 	transform: translate(-5px, -5px);
+}
+#teamdetail {
+	width: 1100px;
+	height: auto;
+	display: none;
+	margin: 50px auto;
+	border: 1.5px dotted #980000;
+	border-radius: 10px;
+	box-shadow: 3px 3px 15px #EAEAEA;
+	position: relative;
+}
+.map {
+	margin: 0 auto;
+}
+#teamdetailtable {
+	width: 900px;
+	margin: 0 auto;
+}
+#teamdetailtable td:nth-of-type(1) {
+	width: 500px;
+}
+#teamdetailtable td {
+	width: 400px;
+	padding: 10px;
+}
+.iw_inner {
+	margin: 15px;
+}
+#teamseat {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+}
+#teamseat:hover {
+	width: 305px;
+	height: 305px;
+}
+#exit {
+	position: absolute;
+	right: 20px;
+	top: 15px;
+}
+#map {
+	width: 450px;
+	height: 450px;
+	margin: 20px auto;
+}
+#listsearch {
+    width: 1000px;
+    height: 60px;
+    margin: auto;
+}
+#listsearchtable {
+	width: auto;
+	height: auto;
+	margin: 1px auto;
+}
+#listsearchtable input {
+	width: 400px;
+	height: 35px;
+	padding: 0px 3px;
+}
+#listsearchtable select {
+	width: 100px;
+	height: 40px;
+	padding: auto;
+	border-radius: 3px;
+}
+#listsearchtable #sbutton {
+	width: 100px;
+	height: 40px;
+	background-color: #980000;
+	border: none;
+	border-radius: 4px;
+	color: white;
+}
+#listsearchtable #sbutton:hover {
+	background-color: white;
+	border: 1px solid #980000;
+	color: #980000;
+}
+#desc {
+	width: 1200px;
+	height: 30px;
+	margin: 5px auto;
+}
+#desctable {
+	width: auto;
+	float: right;
+	margin: auto 0;
+}
+#desctable td {
+	width: 70px;
+	text-align: right;
+}
+#desctable a {
+	text-decoration: none;
+	color: gray;
+}
+#desctable a:hover {
+	font-weight: bold;
+}
+#post {
+	width: 1200px;
+	height: auto;
+}
+#posttable {
+	width: 1100px;
+	height: auto;
+	margin: 0px auto;
+	border: hidden;
+	border-collapse: collapse;
+}
+#posttable tr {
+	width: auto;
+	height: 45px;
+}
+#posttable tr:hover {
+	background-color: #EAEAEA;
+}
+#posttable a {
+	color: black;
+}
+#posttable td:nth-of-type(1) {
+	width: 150px;
+}
+#posttable td:nth-of-type(2) {
+	width: 550px;
+}
+#posttable td:nth-of-type(3) {
+	width: 200px;
+}
+#posttable td:nth-of-type(4) {
+	width: 200px;
+	text-align: right;
+}
+#posttable td:only-child {
+	width: 100%;
+	text-align: center;
+}
+#writepost {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 15px;
+	border: solid #EAEAEA;
+	border-width: 1px 1px 1px 1px;
+	margin: 35px 1px;
+}

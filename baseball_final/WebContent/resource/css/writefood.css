@@ -1,0 +1,58 @@
+@charset "UTF-8";
+h1 {
+	width: 500px;
+	margin: 30px auto;
+	text-align: center;
+	font-size: 40px;
+}
+#writefood {
+	width: 700px;
+	height: auto;
+	margin: 15px auto;
+}
+#writefood tr {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+#submit {
+	width: 250px;
+	height: 35px;
+}
+#writefood select {
+	font-size: 15px;
+	width: 200px;
+	height: 35px;
+	padding: 0px 7px;
+}
+#writefood #restaurant {
+	font-size: 15px;
+	width: 455px;
+	height: 25px;
+	padding: 3px 15px;
+}
+#writefood #oneline, #writefood #inputaddress {
+	font-size: 15px;
+	width: 660px;
+	height: 25px;
+	padding: 3px 15px;
+}
+#sbutton {
+	width: 445px;
+	height: 45px;
+	background-color: #980000;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	margin: 40px auto;
+}
+#sbutton:hover {
+	background-color: white;
+	border: 1px solid #980000;
+	color: #980000;
+}
+#map {
+	width: 100%;
+	height: 500px;
+	margin: 15px auto;
+}

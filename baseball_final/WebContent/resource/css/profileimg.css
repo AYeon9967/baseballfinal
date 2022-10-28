@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'TmoneyRoundWindRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+  	font-family: 'TmoneyRoundWindRegular';
+	margin: 4px 0;
+}
+#profileupdate {
+	width: 300px;
+	height: auto;
+	margin: 40px auto;
+	text-align: center;
+}
+#profileupdate tr {
+	width: auto;
+	height: 40px;
+}
+#sbutton {
+	width: 400px;
+	height: 43px;
+	background-color: #980000;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	margin: 40px auto;
+}
+#sbutton:hover {
+	background-color: white;
+	border: 1px solid #980000;
+	color: #980000;
+}

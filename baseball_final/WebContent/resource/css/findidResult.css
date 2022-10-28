@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.idresult {
+	width: 700px;
+	height: auto;
+	margin: 20px auto;
+}
+#idresulttable {
+	width: 100%;
+}
+.idresult tr {
+	height: 40px;
+	text-align: center;
+}
+#result {
+	font-size: 20px;
+}
+#sbutton {
+	width: 380px;
+	height: 43px;
+	background-color: #980000;
+	border: none;
+	border-radius: 2px;
+	color: white;
+}
+#sbutton:hover {
+	background-color: white;
+	border: 1px solid #980000;
+	color: #980000;
+}

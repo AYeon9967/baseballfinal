@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'TmoneyRoundWindRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+  	font-family: 'TmoneyRoundWindRegular';
+	margin: 4px 0;
+}
+.idcheckcontainer {
+	width: 400px;
+	height: auto;
+	margin: 0px auto;
+}
+.idcheck {
+	width: 390px;
+	height: auto;
+	margin: 0px auto;
+}
+input {
+	font-size: 15px;
+	width: 170px;
+	height: 25px;
+	padding: 3px 10px;
+}
+tr {
+	width: 350px;
+	height: 60px;
+	text-align: center;
+}
+#usebutton {
+	width: 150px;
+	height: 40px;
+	background-color: #980000;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	margin: 30px auto;
+}
+#usebutton:hover {
+	background-color: white;
+	border: 1px solid #980000;
+	color: #980000;
+}
+#sbutton {
+	width: 150px;
+	height: 30px;
+}
+#findidsuc {
+	color: green;
+	font-weight: bold;
+	font-size: 130%;
+	line-height: 2.3;
+}
+#findidfail {
+	color: red;
+	font-weight: bold;
+	font-size: 130%;
+	line-height: 2.8;
+}

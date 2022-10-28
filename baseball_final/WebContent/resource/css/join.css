@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.jointable {
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+#sbutton {
+	width: 445px;
+	height: 43px;
+	background-color: #980000;
+	border: none;
+	border-radius: 2px;
+	color: white;
+}
+#sbutton:hover {
+	background-color: white;
+	border: 1px solid #980000;
+	color: #980000;
+}
+#idcheckbutton {
+	width: 140px;
+	height: auto;
+	padding: 5px;
+}
+tr {
+	width: auto;
+	height: 48px;
+}
+tr:last-child, tr:first-child {
+	width: auto;
+	height: 130px;
+}
+td {
+	width: auto;
+	text-align: center;
+}
+th {
+	width: 140px;
+	text-align: right;
+}
+input {
+	font-size: 15px;
+	width: 290px;
+	height: 25px;
+	padding: 3px 15px;
+}
+input[type="radio"] {
+    width: 25px;
+    height: auto;
+}
+label {
+    width: auto;
+    height: auto;
+    margin-right: 40px;
+}
+#favorite {
+	font-size: 15px;
+	width: 325px;
+	height: 31px;
+}
+#gen {
+	text-align: left;
+	padding: 3px 20px;
+}
+#year {
+	width: 116px;
+	height: 31px;
+}
+#month, #day {
+	width: 100px;
+	height: 31px;
+}

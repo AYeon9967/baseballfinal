@@ -1,0 +1,98 @@
+@charset "UTF-8";
+.showpost {
+	width: 850px;
+	height: auto;
+	padding: 25px;
+	margin: 40px auto;
+	border: 1px solid gray;
+}
+#post a {
+	color: black;
+}
+#post, #reply, #writereply {
+	width: 800px;
+	height: auto;
+	margin: 15px auto;
+}
+#nick {
+	position: relative;
+	width: auto;
+	margin-right: 0;
+}
+#profile {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: relative;
+	top: 58%;
+	right: 7px;
+	float: left;
+}
+#userprofile {
+	padding: 0 0 0 15px;
+}
+#date {
+	color: lightgray;
+	font-size: 12px;
+	width: auto;
+	margin: 0;
+}
+#post tr {
+	width: auto;
+	height: 45px;
+}
+#post tr:nth-of-type(4) {
+	width: auto;
+	height: 250px;
+}
+#postbutton {
+	width: 85px;
+	height: 30px;
+	background-color: #980000;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	float: right;
+	margin: auto 10px;
+}
+#postbutton:hover {
+	background-color: white;
+	border: 1px solid #980000;
+	color: #980000;
+}
+#reply tr {
+	width: auto;
+	height: 35px;
+}
+#replycon {
+	padding: 0 0 0 30px;
+}
+#replyup {
+	float: right;
+}
+#replyup a {
+	font-size: 13px;
+	color: gray;
+	text-decoration: none;
+}
+#replyup a:hover {
+	color: lightgray;
+}
+#writereply input {
+	width: 680px;
+	height: 35px;
+	padding: 0px 3px;
+}
+#writereply #sbutton {
+	width: 100px;
+	height: 40px;
+	background-color: #980000;
+	border: none;
+	border-radius: 4px;
+	color: white;
+}
+#writereply #sbutton:hover {
+	background-color: white;
+	border: 1px solid #980000;
+	color: #980000;
+}

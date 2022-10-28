@@ -1,0 +1,47 @@
+@charset "UTF-8";
+#writepost {
+	width: 700px;
+	height: auto;
+	margin: 15px auto;
+}
+#sbutton {
+	width: 445px;
+	height: 43px;
+	background-color: #980000;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	margin: 40px auto;
+}
+#sbutton:hover {
+	background-color: white;
+	border: 1px solid #980000;
+	color: #980000;
+}
+#writepost tr {
+	width: 700px;
+	height: 60px;
+}
+#writepost select {
+	font-size: 15px;
+	width: 200px;
+	height: 30px;
+	padding: 0px 7px;
+}
+#writepost input {
+	font-size: 15px;
+	width: 648px;
+	height: 25px;
+	padding: 3px 15px;
+}
+#writepost textarea {
+	font-size: 15px;
+	width: 650px;
+	height: 400px;
+	padding: 10px 15px;
+}
+#writeimg {
+	width: 700px;
+	height: auto;
+	margin: 10px auto;
+}

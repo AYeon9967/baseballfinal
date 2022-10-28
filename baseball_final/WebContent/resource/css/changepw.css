@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.changepw {
+	width: 650px;
+	height: auto;
+	margin: 30px auto;
+}
+.changepwtable {
+	width: 100%;
+	height: auto;
+}
+.changepwtable tr {
+	height: 40px;
+	text-align: center;
+}
+.changepwtable th {
+	width: 180px;
+	text-align: right;
+}
+.changepwtable input {
+	font-size: 15px;
+	width: 330px;
+	height: 25px;
+	padding: 3px 15px;
+}
+input[type="radio"] {
+    width: 25px;
+    height: auto;
+}
+label {
+    width: auto;
+    height: auto;
+    margin-right: 40px;
+}
+#sbutton {
+	width: 380px;
+	height: 43px;
+	background-color: #980000;
+	border: none;
+	border-radius: 2px;
+	color: white;
+}
+#sbutton:hover {
+	background-color: white;
+	border: 1px solid #980000;
+	color: #980000;
+}

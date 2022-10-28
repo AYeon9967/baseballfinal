@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.joinresult {
+	width: 700px;
+	height: auto;
+	margin: 20px auto;
+}
+#joinresulttable {
+	width: 100%;
+}
+#joinresulttable tr {
+	height: 40px;
+	text-align: center;
+}
+#sbutton {
+	width: 380px;
+	height: 43px;
+	background-color: #980000;
+	border: none;
+	border-radius: 2px;
+	color: white;
+}
+#sbutton:hover {
+	background-color: white;
+	border: 1px solid #980000;
+	color: #980000;
+}
